@@ -1,0 +1,556 @@
+14:32:53.915 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+14:32:54.649 [main] INFO  c.c.demo.EurekaConsumerApplication - No active profile set, falling back to default profiles: default
+14:32:55.491 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+14:32:55.655 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=87abc0b0-03b8-3bf1-8044-9ee29c8d5606
+14:32:55.972 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+14:32:55.990 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+14:32:55.991 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:32:55.991 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+14:32:56.187 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:32:56.187 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1529 ms
+14:32:56.249 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+14:32:56.249 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:32:56.290 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@608bc8f8
+14:32:56.735 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+14:32:56.789 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:32:56.789 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:32:56.977 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:32:56.977 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:32:57.256 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+14:32:57.256 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:32:57.409 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:32:58.011 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+14:32:58.020 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+14:32:58.083 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+14:32:58.126 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+14:32:58.577 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:32:58.578 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:32:58.578 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:32:58.578 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:32:58.628 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+14:32:58.752 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+14:32:58.752 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+14:32:58.753 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+14:32:58.753 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+14:32:58.753 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+14:32:58.753 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+14:32:58.753 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+14:32:58.955 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+14:32:58.957 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+14:32:58.958 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+14:32:58.978 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1639290778959 with initial instances count: 2
+14:32:59.011 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+14:32:59.011 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://eureka2:8761/eureka/, http://eureka1:8761/eureka/]
+14:32:59.013 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:32:59.013 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:32:59.013 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:32:59.013 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:32:59.079 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:32:59.079 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:32:59.079 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:32:59.079 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:32:59.108 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://eureka2:8761/eureka/
+14:32:59.108 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://eureka1:8761/eureka/
+14:32:59.113 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+14:32:59.113 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+14:32:59.134 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+14:32:59.180 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-CONSUMER with eureka with status UP
+14:32:59.180 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1639290779180, current=UP, previous=STARTING]
+14:32:59.181 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER/DESKTOP-NPH02G9:eureka-consumer:9091: registering service...
+14:32:59.183 [Thread-31] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+14:32:59.212 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+14:32:59.213 [Thread-31] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+14:32:59.214 [Thread-31] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+14:32:59.224 [Thread-31] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+14:32:59.224 [Thread-31] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+14:32:59.227 [Thread-31] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-SERVER/eureka2:eureka-server:8761 with status UP (replication=true)
+14:32:59.227 [Thread-31] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-SERVER/eureka1:eureka-server:8761 with status UP (replication=true)
+14:32:59.227 [Thread-31] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 2 instances from neighboring DS node
+14:32:59.227 [Thread-31] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 3
+14:32:59.227 [Thread-31] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+14:32:59.231 [Thread-31] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+14:32:59.240 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER/DESKTOP-NPH02G9:eureka-consumer:9091 - registration status: 204
+14:32:59.244 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+14:32:59.245 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9091
+14:32:59.339 [main] INFO  c.c.demo.EurekaConsumerApplication - Started EurekaConsumerApplication in 6.027 seconds (JVM running for 7.615)
+14:32:59.584 [RMI TCP Connection(1)-192.168.65.178] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:32:59.584 [RMI TCP Connection(1)-192.168.65.178] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:32:59.594 [RMI TCP Connection(1)-192.168.65.178] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+14:33:10.684 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+14:33:11.039 [main] INFO  c.c.demo.EurekaProviderApplication - No active profile set, falling back to default profiles: default
+14:33:11.454 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+14:33:11.517 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c67c7085-764e-37df-a920-4c83dd86bde4
+14:33:11.680 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+14:33:11.685 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+14:33:11.685 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:33:11.686 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+14:33:11.755 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:33:11.755 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 707 ms
+14:33:11.794 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+14:33:11.794 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:33:11.798 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5e1fc2aa
+14:33:12.025 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+14:33:12.056 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:33:12.056 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:33:12.109 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:33:12.109 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:33:12.279 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+14:33:12.279 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:33:12.359 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:33:12.802 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+14:33:12.812 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+14:33:12.833 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+14:33:12.847 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+14:33:13.036 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:33:13.037 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:33:13.037 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:33:13.037 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:33:13.085 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+14:33:13.151 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+14:33:13.152 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+14:33:13.152 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+14:33:13.152 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+14:33:13.152 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+14:33:13.152 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+14:33:13.152 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+14:33:13.236 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+14:33:13.237 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+14:33:13.239 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+14:33:13.240 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1639290793240 with initial instances count: 3
+14:33:13.256 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+14:33:13.257 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://eureka2:8761/eureka/, http://eureka1:8761/eureka/]
+14:33:13.258 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:33:13.258 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:33:13.258 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:33:13.258 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:33:13.298 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:33:13.298 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:33:13.298 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:33:13.298 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:33:13.327 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://eureka2:8761/eureka/
+14:33:13.327 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://eureka1:8761/eureka/
+14:33:13.331 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+14:33:13.331 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+14:33:13.338 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14:33:13.372 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-PROVIDER with eureka with status UP
+14:33:13.372 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1639290793372, current=UP, previous=STARTING]
+14:33:13.373 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090: registering service...
+14:33:13.374 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+14:33:13.374 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+14:33:13.374 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+14:33:13.374 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+14:33:13.379 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+14:33:13.379 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+14:33:13.382 [Thread-23] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-CONSUMER/DESKTOP-NPH02G9:eureka-consumer:9091 with status UP (replication=true)
+14:33:13.382 [Thread-23] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-SERVER/eureka1:eureka-server:8761 with status UP (replication=true)
+14:33:13.382 [Thread-23] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-SERVER/eureka2:eureka-server:8761 with status UP (replication=true)
+14:33:13.382 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 3 instances from neighboring DS node
+14:33:13.382 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 5
+14:33:13.382 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+14:33:13.385 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+14:33:13.387 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path ''
+14:33:13.388 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9090
+14:33:13.393 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 - registration status: 204
+14:33:13.484 [main] INFO  c.c.demo.EurekaProviderApplication - Started EurekaProviderApplication in 3.117 seconds (JVM running for 3.688)
+14:33:14.050 [RMI TCP Connection(2)-192.168.65.178] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:33:14.050 [RMI TCP Connection(2)-192.168.65.178] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:33:14.054 [RMI TCP Connection(2)-192.168.65.178] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+14:33:51.152 [Thread-34] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EUREKA-PROVIDER with eureka with status DOWN
+14:33:51.152 [Thread-34] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1639290831152, current=DOWN, previous=UP]
+14:33:51.152 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090: registering service...
+14:33:51.159 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 - registration status: 204
+14:33:51.222 [Thread-34] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+14:33:51.222 [Thread-34] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:33:51.223 [Thread-34] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:33:51.226 [Thread-34] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+14:33:51.227 [Thread-34] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9090"]
+14:33:51.228 [Thread-34] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+14:33:51.238 [Thread-34] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+14:33:51.240 [Thread-34] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:33:51.259 [Thread-34] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+14:33:54.262 [Thread-34] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+14:33:54.268 [Thread-34] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 - deregister  status: 200
+14:33:54.272 [Thread-34] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+14:33:59.231 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+14:34:59.234 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+14:35:59.234 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+14:36:59.235 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+14:37:58.755 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+14:37:59.235 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+14:38:59.238 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+14:39:59.242 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+14:40:59.243 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+14:41:59.244 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+14:42:58.758 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+14:42:59.247 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+14:43:59.248 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+14:44:48.402 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+14:44:48.742 [main] INFO  c.c.demo.EurekaProviderApplication - No active profile set, falling back to default profiles: default
+14:44:49.130 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+14:44:49.194 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c67c7085-764e-37df-a920-4c83dd86bde4
+14:44:49.357 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+14:44:49.362 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+14:44:49.363 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:44:49.363 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+14:44:49.431 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:44:49.431 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 681 ms
+14:44:49.470 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+14:44:49.470 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:44:49.475 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5e1fc2aa
+14:44:49.698 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+14:44:49.730 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:44:49.730 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:44:49.784 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:44:49.784 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:44:49.959 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+14:44:49.960 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:44:50.039 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:44:50.466 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+14:44:50.476 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+14:44:50.498 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+14:44:50.514 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+14:44:50.706 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:44:50.706 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:44:50.707 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:44:50.707 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:44:50.757 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+14:44:50.824 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+14:44:50.824 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+14:44:50.824 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+14:44:50.825 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+14:44:50.825 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+14:44:50.825 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+14:44:50.825 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+14:44:50.906 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+14:44:50.907 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+14:44:50.908 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+14:44:50.910 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1639291490910 with initial instances count: 3
+14:44:50.926 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+14:44:50.927 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://eureka2:8761/eureka/, http://eureka1:8761/eureka/]
+14:44:50.928 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:44:50.928 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:44:50.928 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:44:50.928 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:44:50.969 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:44:50.969 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:44:50.969 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:44:50.969 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:44:50.998 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://eureka2:8761/eureka/
+14:44:50.998 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://eureka1:8761/eureka/
+14:44:51.002 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+14:44:51.002 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+14:44:51.009 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14:44:51.043 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-PROVIDER with eureka with status UP
+14:44:51.044 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1639291491044, current=UP, previous=STARTING]
+14:44:51.044 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090: registering service...
+14:44:51.045 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+14:44:51.045 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+14:44:51.045 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+14:44:51.045 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+14:44:51.050 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+14:44:51.050 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+14:44:51.053 [Thread-23] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-CONSUMER/DESKTOP-NPH02G9:eureka-consumer:9091 with status UP (replication=true)
+14:44:51.053 [Thread-23] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-SERVER/eureka1:eureka-server:8761 with status UP (replication=true)
+14:44:51.054 [Thread-23] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-SERVER/eureka2:eureka-server:8761 with status UP (replication=true)
+14:44:51.054 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 3 instances from neighboring DS node
+14:44:51.054 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 5
+14:44:51.054 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+14:44:51.056 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+14:44:51.058 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path ''
+14:44:51.059 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9090
+14:44:51.063 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 - registration status: 204
+14:44:51.155 [main] INFO  c.c.demo.EurekaProviderApplication - Started EurekaProviderApplication in 3.059 seconds (JVM running for 3.599)
+14:44:51.796 [RMI TCP Connection(3)-192.168.65.178] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:44:51.796 [RMI TCP Connection(3)-192.168.65.178] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:44:51.799 [RMI TCP Connection(3)-192.168.65.178] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+14:45:14.250 [Thread-34] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EUREKA-PROVIDER with eureka with status DOWN
+14:45:14.250 [Thread-34] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1639291514250, current=DOWN, previous=UP]
+14:45:14.250 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090: registering service...
+14:45:14.255 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 - registration status: 204
+14:45:14.315 [Thread-34] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+14:45:14.315 [Thread-34] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:45:14.316 [Thread-34] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:45:14.318 [Thread-34] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+14:45:14.319 [Thread-34] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9090"]
+14:45:14.319 [Thread-34] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+14:45:14.329 [Thread-34] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+14:45:14.332 [Thread-34] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:45:14.334 [Thread-34] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+14:45:17.336 [Thread-34] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+14:45:17.342 [Thread-34] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 - deregister  status: 200
+14:45:17.345 [Thread-34] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+14:52:37.164 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+14:52:37.521 [main] INFO  c.c.demo.EurekaProviderApplication - No active profile set, falling back to default profiles: default
+14:52:37.918 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+14:52:37.984 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c67c7085-764e-37df-a920-4c83dd86bde4
+14:52:38.155 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+14:52:38.161 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+14:52:38.161 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:52:38.161 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+14:52:38.230 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:52:38.230 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 701 ms
+14:52:38.269 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+14:52:38.269 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:52:38.274 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5e1fc2aa
+14:52:38.504 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+14:52:38.537 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:52:38.537 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:52:38.593 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:52:38.593 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:52:38.769 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+14:52:38.769 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:52:38.856 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:52:39.288 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+14:52:39.299 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+14:52:39.319 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+14:52:39.334 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+14:52:39.520 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:52:39.520 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:52:39.520 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:52:39.520 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:52:39.569 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+14:52:39.634 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+14:52:39.635 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+14:52:39.635 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+14:52:39.635 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+14:52:39.635 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+14:52:39.635 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+14:52:39.635 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+14:52:39.714 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+14:52:39.715 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+14:52:39.717 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+14:52:39.718 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1639291959718 with initial instances count: 1
+14:52:39.734 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+14:52:39.735 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://eureka2:8761/eureka/, http://eureka1:8761/eureka/]
+14:52:39.736 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:52:39.736 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:52:39.736 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:52:39.736 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:52:39.776 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:52:39.776 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:52:39.776 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:52:39.776 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:52:39.807 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://eureka2:8761/eureka/
+14:52:39.807 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://eureka1:8761/eureka/
+14:52:39.811 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+14:52:39.811 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+14:52:39.819 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14:52:39.853 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-PROVIDER with eureka with status UP
+14:52:39.853 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1639291959853, current=UP, previous=STARTING]
+14:52:39.854 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090: registering service...
+14:52:39.855 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+14:52:39.855 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+14:52:39.855 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+14:52:39.855 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+14:52:39.860 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+14:52:39.860 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+14:52:39.863 [Thread-23] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-SERVER/eureka2:eureka-server:8761 with status UP (replication=true)
+14:52:39.863 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+14:52:39.864 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+14:52:39.864 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+14:52:39.866 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+14:52:39.868 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path ''
+14:52:39.869 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9090
+14:52:39.873 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 - registration status: 204
+14:52:39.965 [main] INFO  c.c.demo.EurekaProviderApplication - Started EurekaProviderApplication in 3.135 seconds (JVM running for 3.689)
+14:52:40.098 [RMI TCP Connection(2)-192.168.65.178] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:52:40.098 [RMI TCP Connection(2)-192.168.65.178] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:52:40.101 [RMI TCP Connection(2)-192.168.65.178] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+14:52:54.534 [http-nio-9090-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+14:53:38.465 [http-nio-9090-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+14:53:39.865 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+14:53:45.433 [http-nio-9090-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+14:55:07.272 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+14:55:07.622 [main] INFO  c.c.demo.EurekaProviderApplication - No active profile set, falling back to default profiles: default
+14:55:08.008 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+14:55:08.071 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c67c7085-764e-37df-a920-4c83dd86bde4
+14:55:08.240 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+14:55:08.245 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+14:55:08.246 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:55:08.246 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+14:55:08.315 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:55:08.315 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 685 ms
+14:55:08.353 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+14:55:08.353 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:55:08.358 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5e1fc2aa
+14:55:08.585 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+14:55:08.616 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:55:08.616 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:55:08.670 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:55:08.670 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:55:08.843 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+14:55:08.843 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:55:08.925 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:55:09.363 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+14:55:09.373 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+14:55:09.394 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+14:55:09.408 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+14:55:09.598 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:55:09.598 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:55:09.598 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:55:09.598 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:55:09.646 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+14:55:09.715 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+14:55:09.715 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+14:55:09.715 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+14:55:09.715 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+14:55:09.715 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+14:55:09.715 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+14:55:09.715 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+14:55:09.798 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+14:55:09.799 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+14:55:09.800 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+14:55:09.802 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1639292109801 with initial instances count: 3
+14:55:09.818 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+14:55:09.819 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://eureka2:8761/eureka/, http://eureka1:8761/eureka/]
+14:55:09.820 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:55:09.820 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:55:09.820 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:55:09.820 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:55:09.859 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:55:09.860 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:55:09.860 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:55:09.860 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:55:09.889 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://eureka2:8761/eureka/
+14:55:09.889 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://eureka1:8761/eureka/
+14:55:09.893 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+14:55:09.893 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+14:55:09.900 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14:55:09.935 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-PROVIDER with eureka with status UP
+14:55:09.936 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1639292109936, current=UP, previous=STARTING]
+14:55:09.936 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090: registering service...
+14:55:09.937 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+14:55:09.937 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+14:55:09.937 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+14:55:09.937 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+14:55:09.942 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+14:55:09.942 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+14:55:09.946 [Thread-23] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-SERVER/eureka1:eureka-server:8761 with status UP (replication=true)
+14:55:09.946 [Thread-23] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-SERVER/eureka2:eureka-server:8761 with status UP (replication=true)
+14:55:09.946 [Thread-23] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 with status UP (replication=true)
+14:55:09.946 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 3 instances from neighboring DS node
+14:55:09.946 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 5
+14:55:09.946 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+14:55:09.949 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+14:55:09.952 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path ''
+14:55:09.953 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9090
+14:55:09.958 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 - registration status: 204
+14:55:10.050 [main] INFO  c.c.demo.EurekaProviderApplication - Started EurekaProviderApplication in 3.091 seconds (JVM running for 3.642)
+14:55:10.232 [RMI TCP Connection(2)-192.168.65.178] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:55:10.232 [RMI TCP Connection(2)-192.168.65.178] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:55:10.235 [RMI TCP Connection(2)-192.168.65.178] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+14:55:50.790 [http-nio-9090-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+14:55:53.091 [http-nio-9090-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+14:56:03.636 [http-nio-9090-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+14:56:09.949 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+14:56:31.863 [http-nio-9090-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+14:56:40.788 [Thread-33] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EUREKA-PROVIDER with eureka with status DOWN
+14:56:40.788 [Thread-33] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1639292200788, current=DOWN, previous=UP]
+14:56:40.788 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090: registering service...
+14:56:40.795 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 - registration status: 204
+14:56:40.861 [Thread-33] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+14:56:40.861 [Thread-33] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:56:40.862 [Thread-33] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:56:40.864 [Thread-33] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+14:56:40.865 [Thread-33] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9090"]
+14:56:40.866 [Thread-33] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+14:56:40.876 [Thread-33] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+14:56:40.879 [Thread-33] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:56:40.880 [Thread-33] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+14:56:43.884 [Thread-33] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+14:56:43.890 [Thread-33] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 - deregister  status: 200
+14:56:43.894 [Thread-33] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+14:57:46.545 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+14:57:46.897 [main] INFO  c.c.demo.EurekaProviderApplication - No active profile set, falling back to default profiles: default
+14:57:47.288 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+14:57:47.351 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c67c7085-764e-37df-a920-4c83dd86bde4
+14:57:47.526 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+14:57:47.533 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+14:57:47.533 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:57:47.534 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+14:57:47.605 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:57:47.606 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 700 ms
+14:57:47.642 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+14:57:47.642 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:57:47.647 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5e1fc2aa
+14:57:47.887 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+14:57:47.922 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:57:47.922 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:57:47.978 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:57:47.979 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:57:48.151 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+14:57:48.151 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:57:48.243 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:57:48.695 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+14:57:48.706 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+14:57:48.728 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+14:57:48.742 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+14:57:48.933 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:57:48.933 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:57:48.933 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:57:48.933 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:57:48.984 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+14:57:49.051 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+14:57:49.051 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+14:57:49.051 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+14:57:49.051 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+14:57:49.051 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+14:57:49.052 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+14:57:49.052 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+14:57:49.133 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+14:57:49.135 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+14:57:49.136 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+14:57:49.138 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1639292269137 with initial instances count: 2
+14:57:49.154 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+14:57:49.155 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://eureka2:8761/eureka/, http://eureka1:8761/eureka/]
+14:57:49.156 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:57:49.156 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:57:49.156 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:57:49.156 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:57:49.197 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+14:57:49.198 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+14:57:49.198 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+14:57:49.198 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+14:57:49.228 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://eureka2:8761/eureka/
+14:57:49.228 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://eureka1:8761/eureka/
+14:57:49.232 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+14:57:49.232 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+14:57:49.239 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+14:57:49.275 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-PROVIDER with eureka with status UP
+14:57:49.275 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1639292269275, current=UP, previous=STARTING]
+14:57:49.276 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090: registering service...
+14:57:49.276 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+14:57:49.276 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+14:57:49.277 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+14:57:49.277 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+14:57:49.281 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+14:57:49.282 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+14:57:49.285 [Thread-23] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-SERVER/eureka1:eureka-server:8761 with status UP (replication=true)
+14:57:49.285 [Thread-23] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance EUREKA-SERVER/eureka2:eureka-server:8761 with status UP (replication=true)
+14:57:49.285 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 2 instances from neighboring DS node
+14:57:49.285 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 3
+14:57:49.285 [Thread-23] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+14:57:49.288 [Thread-23] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+14:57:49.290 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path ''
+14:57:49.291 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9090
+14:57:49.298 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 - registration status: 204
+14:57:49.389 [main] INFO  c.c.demo.EurekaProviderApplication - Started EurekaProviderApplication in 3.149 seconds (JVM running for 3.798)
+14:57:49.511 [RMI TCP Connection(1)-192.168.65.178] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:57:49.511 [RMI TCP Connection(1)-192.168.65.178] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:57:49.515 [RMI TCP Connection(1)-192.168.65.178] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+14:58:42.271 [Thread-33] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application EUREKA-PROVIDER with eureka with status DOWN
+14:58:42.271 [Thread-33] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1639292322271, current=DOWN, previous=UP]
+14:58:42.271 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090: registering service...
+14:58:42.278 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 - registration status: 204
+14:58:42.336 [Thread-33] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+14:58:42.336 [Thread-33] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:58:42.337 [Thread-33] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:58:42.339 [Thread-33] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+14:58:42.340 [Thread-33] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9090"]
+14:58:42.341 [Thread-33] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+14:58:42.351 [Thread-33] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+14:58:42.353 [Thread-33] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+14:58:42.355 [Thread-33] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+14:58:45.358 [Thread-33] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+14:58:45.365 [Thread-33] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-PROVIDER/DESKTOP-NPH02G9:eureka-provider:9090 - deregister  status: 200
+14:58:45.370 [Thread-33] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
